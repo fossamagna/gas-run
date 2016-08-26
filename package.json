@@ -1,0 +1,23 @@
+{
+  "name": "gas-run",
+  "version": "1.0.0",
+  "description": "Google Apps Script client library functions",
+  "homepage": "https://github.com/fossamagna/gas-run",
+  "author": {
+    "name": "fossamagna",
+    "email": "fossamagna2@gmail.com",
+    "url": "https://github.com/fossamagna"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint src",
+    "prepublish": "babel src/index.js --out-file index.js"
+  },
+  "repository": "fossamagna/gas-run",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.14.0",
+    "babel-preset-es2015": "6.14.0",
+    "eslint": "3.3.1"
+  }
+}
