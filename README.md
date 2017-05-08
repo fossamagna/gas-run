@@ -1,5 +1,7 @@
 # gas-run
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/fossamagna/gas-run.svg)](https://greenkeeper.io/)
+
 > Client side library to call Google Apps Script functions
 
 ## Installation
